@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit",Arial, Helvetica, sans-serif;
+}
+
+/*  Ensures consistent sizing across all elements.
+✅ Prevents unwanted spacing issues due to default margins/padding.
+✅ Defines a uniform font style across the application.
+✅ Improves maintainability by providing a solid styling foundation. */

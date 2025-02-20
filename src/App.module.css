@@ -1,0 +1,7 @@
+@import "./vars.css";  /* this is for using the var for the background color */
+
+.App {
+    background-color: var(--color-bg);
+    width: 100%;
+    height: 100%;
+}
