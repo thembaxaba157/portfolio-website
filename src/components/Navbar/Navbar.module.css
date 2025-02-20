@@ -1,0 +1,48 @@
+/* for styling variables*/
+@import "../../vars.css";
+
+.navbar{
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* move from top to down a little bit */
+    padding-top: 20px;
+    /* for floating elements later on */
+    z-index: 2;
+
+    /* margin start with vertical with 0 then horizontal will be 10% 
+    this is to leave space between the side edges and the actual start of the tag*/
+
+    margin: 0 6%;
+}
+
+.title{
+    font-size: 30px;
+    font-weight:600;
+    text-decoration: none;
+    color: var(--color-text)
+}
+
+.menu{
+    /* for responsiveness, display flex is for children inside the container */
+    display: flex;
+
+}
+
+.menuItems{
+    /* this display flex will help with also horizontal lining of the items */
+    display: flex;
+    /* spacing between the items */
+    gap: 20px;
+    /* remove the bullet points on the list */
+    list-style: none;
+}
+
+/* target the a tag inside the menu items */
+.menuItems a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 20px;
+}
