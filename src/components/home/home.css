@@ -1,3 +1,7 @@
+.home__container {
+    row-gap: 2rem;
+}
+
 .home__content {
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
@@ -83,7 +87,43 @@
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
 
-
-
 }
 
+.home__scroll {
+    margin-left: 9.25rem;
+}
+
+.wheel {
+    animation: scroller 2s ease infinite;
+}
+
+@keyframes scroller {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(3.75rem);
+    }
+}
+
+
+.home__scroll-name {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+
+.home__scroll-arrow {
+    font-size: 1.25;
+    color: var(--title-color);
+}
+
+.home__scroll-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: var(--title-color);
+    gap: 0.3rem;
+}
