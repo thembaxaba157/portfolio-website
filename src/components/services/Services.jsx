@@ -8,8 +8,8 @@ const Services = () => {
 
     <div className="services__container container grid">
         <div className="services__content">
-            <i className="uil uil services__icon"></i>
-            <h3 className="services__title"></h3>
+        <i className="uil uil-web-grid services__icon"></i>
+            <h3 className="services__title">Frontend <br /> Development</h3>
 
 
             <span className="services__button">View More{" "} <i
@@ -19,10 +19,9 @@ const Services = () => {
             <div className="services__modal-content">
                 <i className="uil uil-times services__modal-close"></i>
 
-                <h3 className="services__modal-title"></h3>
+                <h3 className="services__modal-title">Frontend <br /> Development</h3>
                 <p className="services__modal-description">
-                I build scalable, high-performance web applications using modern technologies. 
-                From backend logic to user interfaces, I ensure smooth integration and efficiency.
+                I build beautiful, fast, and user-friendly websites that work on any device.
                 </p>
 
                 <ul className="services__modal-services grid">
@@ -30,7 +29,7 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                        Full-stack development using Java (Spring Boot) & React
+                        Create interactive and engaging web pages with React & JavaScript
                         </p>
                     </li>
 
@@ -38,14 +37,7 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                        Scalable REST API design & development</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                        <i className="uil uil-check-circle service__modal-icon">
-                        </i>
-                        <p className="services__modal-info">
-                     Database management with MySQL
+                        Make websites mobile-friendly and responsive using CSS
                         </p>
                     </li>
 
@@ -53,11 +45,33 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                     NOTE: I am not limited to these technologies/Tech Stack only, Contact For More Info
+                        Server-side rendering and templating with template engine such as Thymeleaf
                         </p>
                     </li>
 
+                    <li className="services__modal-service">
+                        <i className="uil uil-check-circle service__modal-icon">
+                        </i>
+                        <p className="services__modal-info">
+                        Ensure smooth navigation and fast performance with smart optimizations
+                        </p>
+                    </li>
 
+                    <li className="services__modal-service">
+                        <i className="uil uil-check-circle service__modal-icon">
+                        </i>
+                        <p className="services__modal-info">
+                        Connect your website to APIs for real-time updates and data fetching
+                        </p>
+                    </li>
+
+                    <li className="services__modal-service">
+                        <i className="uil uil-check-circle service__modal-icon">
+                        </i>
+                        <p className="services__modal-info">
+                        📌 This is just a glimpse—contact me to discuss your project!
+                        </p>
+                    </li>
 
                 </ul>
 
@@ -68,8 +82,8 @@ const Services = () => {
         </div>
         
         <div className="services__content">
-            <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">Web Application <br /> Development</h3>
+            <i className="uil uil-setting services__icon"></i>
+            <h3 className="services__title">Backend <br /> Development</h3>
 
 
             <span className="services__button">View More{" "} <i
@@ -79,10 +93,9 @@ const Services = () => {
             <div className="services__modal-content">
                 <i className="uil uil-times services__modal-close"></i>
 
-                <h3 className="services__modal-title"></h3>
+                <h3 className="services__modal-title">Backend <br /> Development</h3>
                 <p className="services__modal-description">
-                I build scalable, high-performance web applications using modern technologies. 
-                From backend logic to user interfaces, I ensure smooth integration and efficiency.
+                I build the brains behind web apps, ensuring they run smoothly and securely.
                 </p>
 
                 <ul className="services__modal-services grid">
@@ -90,7 +103,7 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                        Full-stack development using Java (Spring Boot) & React
+                        Develop fast & secure servers using Spring Boot3
                         </p>
                     </li>
 
@@ -105,7 +118,7 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                     Database management with MySQL
+                        Store and manage data using MySQL & PostgreSQL databases
                         </p>
                     </li>
 
@@ -113,9 +126,34 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                     NOTE: I am not limited to these technologies/Tech Stack only, Contact For More Info
+                        Enable real-time features like chat or live updates with WebSockets
                         </p>
                     </li>
+
+                    <li className="services__modal-service">
+                        <i className="uil uil-check-circle service__modal-icon">
+                        </i>
+                        <p className="services__modal-info">
+                        Keep user accounts safe with JWT authentication & security features
+                        </p>
+                    </li>
+
+                    <li className="services__modal-service">
+                        <i className="uil uil-check-circle service__modal-icon">
+                        </i>
+                        <p className="services__modal-info">
+                        Optimize backend speed and efficiency for better performance
+                        </p>
+                    </li>
+
+                    <li className="services__modal-service">
+                        <i className="uil uil-check-circle service__modal-icon">
+                        </i>
+                        <p className="services__modal-info">
+                        📌 Need something different? Let’s talk!
+                        </p>
+                    </li>
+
 
 
 
@@ -128,8 +166,8 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-            <i className="uil uil services__icon"></i>
-            <h3 className="services__title"></h3>
+        <i className="uil uil-server services__icon"></i>
+            <h3 className="services__title">DevOps & <br /> Deployment</h3>
 
 
             <span className="services__button">View More{" "} <i
@@ -139,10 +177,9 @@ const Services = () => {
             <div className="services__modal-content">
                 <i className="uil uil-times services__modal-close"></i>
 
-                <h3 className="services__modal-title"></h3>
+                <h3 className="services__modal-title">DevOps & <br /> Deployment</h3>
                 <p className="services__modal-description">
-                I build scalable, high-performance web applications using modern technologies. 
-                From backend logic to user interfaces, I ensure smooth integration and efficiency.
+                I make sure your app is easy to launch, update, and run without issues.
                 </p>
 
                 <ul className="services__modal-services grid">
@@ -150,7 +187,7 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                        Full-stack development using Java (Spring Boot) & React
+                        Package and deploy apps easily using Docker.
                         </p>
                     </li>
 
@@ -158,14 +195,14 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                        Scalable REST API design & development</p>
+                        Use Git & GitHub to manage code and collaborate efficiently</p>
                     </li>
 
                     <li className="services__modal-service">
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                     Database management with MySQL
+                        Set up automated workflows to test and deploy updates seamlessly.
                         </p>
                     </li>
 
@@ -173,11 +210,25 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                     NOTE: I am not limited to these technologies/Tech Stack only, Contact For More Info
+                        Host applications on cloud servers for reliability and scalability
                         </p>
                     </li>
 
+                    <li className="services__modal-service">
+                        <i className="uil uil-check-circle service__modal-icon">
+                        </i>
+                        <p className="services__modal-info">
+                        Monitor and troubleshoot to keep everything running smoothly
+                        </p>
+                    </li>
 
+                    <li className="services__modal-service">
+                        <i className="uil uil-check-circle service__modal-icon">
+                        </i>
+                        <p className="services__modal-info">
+                        📌 Want a hassle-free setup? Let’s chat!
+                        </p>
+                    </li>
 
                 </ul>
 
