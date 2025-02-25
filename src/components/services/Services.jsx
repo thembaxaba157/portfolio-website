@@ -1,4 +1,6 @@
 import React from 'react'
+import "./services.css"
+
 
 const Services = () => {
   return (
@@ -38,14 +40,6 @@ const Services = () => {
                         </i>
                         <p className="services__modal-info">
                         Make websites mobile-friendly and responsive using CSS
-                        </p>
-                    </li>
-
-                    <li className="services__modal-service">
-                        <i className="uil uil-check-circle service__modal-icon">
-                        </i>
-                        <p className="services__modal-info">
-                        Server-side rendering and templating with template engine such as Thymeleaf
                         </p>
                     </li>
 
@@ -118,7 +112,7 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                        Store and manage data using MySQL & PostgreSQL databases
+                        Store and manage data using MySQL databases
                         </p>
                     </li>
 
@@ -135,14 +129,6 @@ const Services = () => {
                         </i>
                         <p className="services__modal-info">
                         Keep user accounts safe with JWT authentication & security features
-                        </p>
-                    </li>
-
-                    <li className="services__modal-service">
-                        <i className="uil uil-check-circle service__modal-icon">
-                        </i>
-                        <p className="services__modal-info">
-                        Optimize backend speed and efficiency for better performance
                         </p>
                     </li>
 
@@ -195,7 +181,7 @@ const Services = () => {
                         <i className="uil uil-check-circle service__modal-icon">
                         </i>
                         <p className="services__modal-info">
-                        Use Git & GitHub to manage code and collaborate efficiently</p>
+                        Use Git to manage code and collaborate efficiently</p>
                     </li>
 
                     <li className="services__modal-service">
@@ -211,14 +197,6 @@ const Services = () => {
                         </i>
                         <p className="services__modal-info">
                         Host applications on cloud servers for reliability and scalability
-                        </p>
-                    </li>
-
-                    <li className="services__modal-service">
-                        <i className="uil uil-check-circle service__modal-icon">
-                        </i>
-                        <p className="services__modal-info">
-                        Monitor and troubleshoot to keep everything running smoothly
                         </p>
                     </li>
 
