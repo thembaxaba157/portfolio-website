@@ -12,7 +12,7 @@ const Services = () => {
             <h3 className="services__title">Frontend <br /> Development</h3>
 
 
-            <span className="services__button">View More{" "} <i
+            <span className="services__button">View More<i
         className="uil uil-arrow-right services__button-icon"></i></span>
 
         <div className="services__modal">
@@ -86,7 +86,7 @@ const Services = () => {
             <h3 className="services__title">Backend <br /> Development</h3>
 
 
-            <span className="services__button">View More{" "} <i
+            <span className="services__button">View More<i
         className="uil uil-arrow-right services__button-icon"></i></span>
 
         <div className="services__modal">
@@ -170,7 +170,7 @@ const Services = () => {
             <h3 className="services__title">DevOps & <br /> Deployment</h3>
 
 
-            <span className="services__button">View More{" "} <i
+            <span className="services__button">View More<i
         className="uil uil-arrow-right services__button-icon"></i></span>
 
         <div className="services__modal">
