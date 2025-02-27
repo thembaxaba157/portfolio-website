@@ -13,10 +13,10 @@ const Contact = () => {
 
                     <div className="contact__info">
                         <div className="contact__card">
-                            <i className="bx bxl-mail contact__card-icon"></i>
+                            <i className="bx bx-mail-send contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">thembaxaba157@gmail.com</span>
+                            <span className="contact__card-data">thembaxaba157<br />@gmail.com</span>
 
 
                             <a href="mailto:thembaxaba157@gmail.com" className="contact__button">Write me <i
@@ -42,7 +42,7 @@ const Contact = () => {
                             <i className="bx bxl-linkedin contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Linkedin</h3>
-                            <span className="contact__card-data">themba-xaba-3740a9261</span>
+                            <span className="contact__card-data">themba-xaba<br />-3740a9261</span>
 
 
                             <a href="https://www.linkedin.com/messaging/compose/?recipient=themba-xaba-3740a9261/" className="contact__button">Write me <i
@@ -79,7 +79,7 @@ const Contact = () => {
                             />
                         </div>
 
-                        <div className="contact__form-div">
+                        <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">Project</label>
                             <textarea
                                 name="project"
