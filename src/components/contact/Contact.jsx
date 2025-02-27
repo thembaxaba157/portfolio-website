@@ -15,14 +15,7 @@ const Contact = () => {
             {
                 publicKey: 'hKB9zq5MsXfJKTr1U',
             })
-        .then(
-          () => {
-            console.log('SUCCESS!');
-          },
-          (error) => {
-            console.log('FAILED...', error.text);
-          },
-        );
+       e.target.reset()
     };
 
     return (
