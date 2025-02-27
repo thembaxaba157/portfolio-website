@@ -63,7 +63,7 @@ const Qualification = () => {
                         </div>
 
                        <div>
-                       <h3 className="qualification__title">BSc Computer Science{"(Incomplete)"}</h3>
+                       <h3 className="qualification__title">BSc Computer Science{" (Incomplete)"}</h3>
                         <span className="qualification__subtitle">University of Witwatersrand</span>
                         <div className="qualification__calendar">
                             <i className="uil uil-calendar-alt"></i> 2018 - 2021(3rd year)
